@@ -33,7 +33,7 @@
     ```   
     ## <VERSION> :: release version (e.g. 5.8.1)   
     ## <RELEASE_TARBALL_PATH> :: release file path (e.g. /home/ubuntu/workspace/monitoring-influxdb-release-<VERSION>.tgz)    
-    $ bosh -e <bosh_name> create-release --name=influxdb --sha2 --version=<VERSION> --tarball=<RELEASE_TARBALL_PATH> --force   
+    $ bosh -e <bosh_name> create-release --name=monitoring-influxdb --sha2 --version=<VERSION> --tarball=<RELEASE_TARBALL_PATH> --force   
     ```    
 ### Deployment
 - https://github.com/K-PaaS/service-deployment
